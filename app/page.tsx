@@ -3,7 +3,7 @@ import { auth } from "@clerk/nextjs";
 
 export default function Home() {
   const { userId } = auth();
-  if (userId) {
+  if (userId != null) {
     redirect("/dashboard");
   }
   return <p className="flex justify-center items-center">Home</p>;
