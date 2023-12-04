@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Poppins } from "next/font/google";
 import "./globals.css";
 import { ClerkProvider } from "@clerk/nextjs";
-import NavBar from "./components/NavBar";
+// import NavBar from "./components/NavBar";
 
-const inter = Inter({ subsets: ["latin"] });
+const josefin = Poppins({ weight: "400", subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Penskull Studios",
@@ -19,8 +19,8 @@ export default function RootLayout({
   return (
     <ClerkProvider>
       <html lang="en" data-theme="light">
-        <body className={inter.className}>
-          <NavBar />
+        <body className={`bg-[#281549] text-white ${josefin.className}`}>
+          {/* <NavBar /> */}
           {children}
         </body>
       </html>
