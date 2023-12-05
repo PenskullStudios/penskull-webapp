@@ -10,7 +10,7 @@ export default function Faq({
   content: string;
 }) {
   return (
-    <div className="w-full px-5 md:w-[30%]">
+    <div className="w-full px-5 md:w-[50%] lg:w-[30%]">
       <div className="relative w-14 h-14">
         <Image src={image} alt="graphics image" fill />
       </div>

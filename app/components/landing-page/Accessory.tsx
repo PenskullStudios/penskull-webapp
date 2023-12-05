@@ -10,7 +10,7 @@ export default function Accessory({
   price: string;
 }) {
   return (
-    <div className="w-full lg:w-1/2">
+    <div className="w-full md:w-[80%] lg:w-1/2">
       <div className="w-full md:w-full h-80 relative">
         <Image
           src={image}

@@ -12,7 +12,7 @@ export default function Bundle({
   price: string;
 }) {
   return (
-    <div className="w-full lg:w-[30%]">
+    <div className="w-full md:w-3/5 lg:w-[30%]">
       <div className="w-full h-64 relative">
         <Image
           src={image}
