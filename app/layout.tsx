@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <ClerkProvider>
       <html lang="en" data-theme="light">
-        <body className={`bg-[#281549] text-white ${josefin.className}`}>
+        <body className={`${josefin.className}`}>
           {/* <NavBar /> */}
           {children}
         </body>

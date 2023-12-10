@@ -18,8 +18,26 @@ export default function HeroSection() {
         </div>
       </div>
       <div className="w-full md:w-5/6 lg:w-1/2 h-[26rem] md:h-[32rem] relative lg:mt-14">
-        <Image src={"/hero.png"} alt="Hero image" fill />
+        <Image src={"/hero_2.png"} alt="Hero image" fill />
       </div>
+      {/* <div className="w-full md:w-5/6 lg:w-1/2 animate-fade-up animate-delay-[20ms] animate-ease-in"> */}
+      {/* <div className="flex items-center justify-center gap-14 mt-10">
+          <div className="w-60 h-56 relative">
+            <Image src={"/cube.webp"} alt="cube image" fill />
+          </div>
+          <div className="w-32 h-32 relative">
+            <Image src={"/diamond.webp"} alt="diamond image" fill />
+          </div>
+        </div>
+        <div className="flex items-center justify-center gap-7">
+          <div className="w-64 h-64 relative mt-20">
+            <Image src={"/circle.webp"} alt="cube image" fill />
+          </div>
+          <div className="w-48 h-48 relative">
+            <Image src={"/star.webp"} alt="diamond image" fill />
+          </div>
+        </div> */}
+      {/* </div> */}
     </div>
   );
 }

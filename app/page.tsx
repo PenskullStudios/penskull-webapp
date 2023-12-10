@@ -15,7 +15,7 @@ export default function Home() {
     redirect("/dashboard");
   }
   return (
-    <>
+    <div className="bg-[#281549] text-white">
       <div className="bg-gradient-to-r from-custom-purple to-custom-pink h-5"></div>
       <HeroSection />
       <ProductSection />
@@ -26,6 +26,6 @@ export default function Home() {
       <AboutUs />
       <ContactUs />
       <div className="h-14 bg-black"></div>
-    </>
+    </div>
   );
 }
